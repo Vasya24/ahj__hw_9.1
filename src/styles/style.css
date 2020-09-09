@@ -1,3 +1,28 @@
 body {
     background: #eee;
   }
+
+#container {
+  background-color: lightsalmon;
+  width: 1000px;
+  height: 1000px; 
+  overflow: hidden;
+  transition: height 3s ease 0s
+}
+
+button {
+  width: 300px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: blue;
+  color: #ffffff;
+}
+
+#box {
+  padding: 100px;
+  border: 1px solid black;
+  width: 500px;
+  height: 150px;
+  margin-top: 75px;
+}
